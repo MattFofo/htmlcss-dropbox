@@ -40,6 +40,9 @@ p {
     position: relative;
 }
 
+.centered {
+    text-align: center;
+}
 
 .clearfix::after {
     content: "";
@@ -180,4 +183,13 @@ header.top-page{
     border: 1px solid gray;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+
+.container-margin-card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.plan-card .btn-colored{
+    display: block;
 }
