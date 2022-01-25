@@ -178,18 +178,21 @@ p {
 }
 
 .plan-card {
-    width: calc(33% - 3rem);
-    float: left;
+    width: calc(33% - 2rem);
     border: 1px solid gray;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    
 }
 
-.container-margin-card {
+
+.container-content-card {
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
 .plan-card .btn-colored{
     display: block;
+}
+
+.card-middle {
+    margin-left: 3.3rem;
 }
