@@ -9,3 +9,23 @@ html {
     
 }
 
+/* UTILITY */
+
+.list {
+    list-style: none;
+}
+
+.link-nav {
+    padding: 1em;
+
+}
+
+.relative {
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
