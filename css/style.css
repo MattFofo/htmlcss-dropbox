@@ -51,6 +51,10 @@ p {
 }
 
 
+.list {
+    list-style: none;
+}
+
 .float-sx {
     float: left;
 
@@ -64,8 +68,8 @@ p {
     background-color: rgb(19, 153, 197);
     color: white;
     text-decoration: none;
-    padding: 0.5em;
     display: inline-block;
+    padding: .5rem 1rem;
 }
 
 .link {
@@ -77,40 +81,36 @@ p {
     border: 1px solid grey;
 }
 
-/* header */
-
-header.top-page{
-    line-height: 3em;
-}
+/* HEADER */
 
 
-.nav-sx li {
-    float: left;
-}
 
-.nav-dx li {
-    float: right;
-}
-
-
-.list {
-    list-style: none;
-}
-
-.link-nav {
-    margin: 1rem;
-    text-decoration: none;
-    display: inline-block;
+.link-logo {
+    line-height: 4;
 }
 
 .img-logo{
     vertical-align: middle;
 }
 
-.nav-dx .btn-colored {
-    margin: .5rem;
-
+.nav-sx li {
+    float: left;
+    padding: 1.5rem 0.8em;
 }
+
+.nav-dx li {
+    float: right;
+    padding: 1.5rem .8em;
+}
+
+
+.link-nav {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
 
 /* section-header (prima sezione colorato sotto l'header)*/
 
