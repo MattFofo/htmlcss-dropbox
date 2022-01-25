@@ -11,14 +11,6 @@ html {
 
 /* UTILITY */
 
-.list {
-    list-style: none;
-}
-
-.link-nav {
-    padding: 1em;
-
-}
 
 .relative {
     position: relative;
@@ -28,4 +20,48 @@ html {
     content: "";
     display: table;
     clear: both;
+}
+
+
+.float-sx {
+    float: left;
+
+}
+
+.float-dx {
+    float: right;
+}
+
+.btn-colored {
+    background-color: rgb(19, 153, 197);
+}
+
+/* header */
+
+header.top-page{
+    line-height: 3em;
+}
+
+
+.nav-sx li {
+    float: left;
+}
+
+.nav-dx li {
+    float: right;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link-nav {
+    margin: 1em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.img-logo{
+    vertical-align: middle;
 }
