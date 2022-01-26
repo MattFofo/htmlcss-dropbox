@@ -315,3 +315,49 @@ p {
     display: inline-block;
     margin: 2em 0;
 }
+
+
+
+/* sezione con loghi aziende */
+
+
+.container-col-brands {
+    width: 40%;
+
+}
+
+
+.top-brands, .bottom-brands{
+    height: 50%;
+}
+
+
+.img-brand {
+    width: 50%;
+    height: 50%;
+    
+    
+}
+
+.container-img-brand{
+    padding: 2em;
+    width: 200px;
+    height: 200px;
+}
+
+.designit{
+    background-color: red;
+}
+
+.arizona{
+    background-color: yellow;
+}
+
+.florida{
+    background-color: green;
+
+}
+
+.topps{
+    background-color: hotpink;
+}
