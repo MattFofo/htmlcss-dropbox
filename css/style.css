@@ -218,6 +218,7 @@ p {
 .plan-card {
     width: calc(33% - 2rem);
     border: 1px solid gray;
+    padding-bottom: 8rem;
     
 }
 
@@ -275,6 +276,9 @@ p {
 .enterprise-text{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .section-enterprise .btn-colored{
@@ -282,6 +286,15 @@ p {
     top: 1.5rem;
     right: 1.5rem;
 }
+
+.header-section-enterprise{
+    padding: 1em;
+}
+
+.enterprise-text h3{
+    font-size: 1.5em;
+}
+
 
 .section-find-partner .col{
     width: 400px;
