@@ -24,6 +24,7 @@ h2 {
 }
 
 h3 {
+    font-size: 1.8rem;
     padding: 1em 0;
 }
 
@@ -100,11 +101,20 @@ p {
 }
 
 .btn-colored {
-    background-color: rgb(41,122,254);
+    background-color: rgb(41, 122, 254);
     color: white;
     text-decoration: none;
     display: inline-block;
     padding: .5rem 1rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    border: 1px solid black;
 }
 
 .link {
@@ -113,8 +123,18 @@ p {
     color: black;
 }
 
+.link-underlined {
+    display: inline-block;
+    color: rgb(41, 122, 254);
+    text-decoration: underline;
+}
+
 .bordered {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
+}
+
+.text-color-grey {
+    color: gray;
 }
 
 /* HEADER */
@@ -150,7 +170,7 @@ p {
 
 
 
-/* section-header (prima sezione colorato sotto l'header)*/
+/* section-header (prima sezione colorata sotto l'header)*/
 
 .section-header {
     background-color: rgb(148, 184, 243);
@@ -217,9 +237,16 @@ p {
 
 .plan-card {
     width: calc(33% - 2rem);
-    border: 1px solid gray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     padding-bottom: 8rem;
     
+}
+
+.header-plan-card {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .container-card-text {
@@ -229,6 +256,10 @@ p {
 .container-card-text h3{
     padding-top: 2rem;
     padding-bottom: .5rem;
+}
+
+.price-tag {
+    font-weight: 600;
 }
 
 .container-content-card {
@@ -253,13 +284,18 @@ p {
     width: calc(100% - 25px)
 }
 
+
+.list-section-plan .section-plan-highlights {
+    padding-left: 0.2em;
+}
+
 .list-section-plan::before{
     content: '';
     display: inline-block;
     width: 6px;
     height: 12px;
     border: solid blue;
-    border-width: 0 2.5px 2.5px 0;
+    border-width: 0 3px 3px 0;
     transform: rotate(45deg);
 
     
@@ -295,6 +331,7 @@ p {
     font-size: 1.5em;
 }
 
+/* sezione trova partner */
 
 .section-find-partner .col{
     width: 400px;
@@ -304,6 +341,10 @@ p {
 .img-partner{
     object-fit: cover;
     width: 600px;
+}
+
+.section-find-partner .btn-white {
+    margin-top: 2rem;
 }
 
 /* sezione dropbpx features */
@@ -318,7 +359,7 @@ p {
 }
 
 .card-feature-middle {
-    margin: 0 4em;
+    margin: 0 5.3em;
 }
 
 .dropbox-features .row-top {
