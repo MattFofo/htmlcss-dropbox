@@ -349,15 +349,21 @@ p {
 
 
 .img-brand {
-    width: 100px;
-    height: 70px;
+    width: 150px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    fill: white;
     
 }
+
+
+.img-brand-text {
+    width: 100px;
+    height: 80px;
+}
+
 
 .container-img-brand{
     padding: 2em;
