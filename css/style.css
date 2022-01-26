@@ -57,10 +57,17 @@ p {
 }
 
 
+.pt20 {
+    padding-top: 20px;
+}
+
 .pb20 {
     padding-bottom: 20px;
 }
 
+.pb40 {
+    padding-bottom: 40px;
+}
 
 .list {
     list-style: none;
@@ -199,6 +206,10 @@ p {
     line-height: 2rem;
 }
 
+.container-card-text h3{
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
 
 .container-content-card {
     margin-left: 1.5rem;
@@ -220,4 +231,22 @@ p {
 
 .col-card{
     width: calc(100% - 25px)
+}
+
+.list-section-plan::before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    border: solid blue;
+    border-width: 0 2.5px 2.5px 0;
+    transform: rotate(45deg);
+
+    
+}
+
+.section-plan-highlights{
+    width: calc(100% - 15px);
+    float: right;
+
 }
