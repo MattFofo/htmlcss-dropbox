@@ -504,7 +504,14 @@ p {
     padding-left: 3rem;
     padding-bottom: 5rem;
     width: 280px;
+    line-height: 2;
 
+}
+
+.title-list-footer-bottom-page {
+    font-size: 1.3em;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
 }
 
 .footer-bottom-page .link{
@@ -515,7 +522,10 @@ p {
     border-bottom: 1px solid white;
 }
 
+.link-footer-bottom-page:hover {
+    text-decoration: underline;
 
+}
 
 
 
