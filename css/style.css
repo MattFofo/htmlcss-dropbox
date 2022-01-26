@@ -279,3 +279,13 @@ p {
     top: 1.5rem;
     right: 1.5rem;
 }
+
+.section-find-partner .col{
+    width: 400px;
+    height: 400px;
+}
+
+.img-partner{
+    object-fit: cover;
+    width: 600px;
+}
