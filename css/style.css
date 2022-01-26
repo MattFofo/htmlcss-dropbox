@@ -322,7 +322,7 @@ p {
 
 
 .container-col-brands {
-    width: 40%;
+    width: 400px;
 
 }
 
@@ -360,4 +360,18 @@ p {
 
 .topps{
     background-color: hotpink;
+}
+
+.container-text-brand{
+    width: calc(100% - 800px);
+    height: 400px;
+    padding: 3em;
+    background-color: lightgray;
+    
+}
+
+.col-brands-dx{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
