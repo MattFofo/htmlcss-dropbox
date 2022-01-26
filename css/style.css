@@ -351,6 +351,10 @@ p {
 .img-brand {
     width: 100px;
     height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
     
 }
@@ -463,3 +467,8 @@ p {
 .column.border-bottom{
     border-bottom: 1px solid white;
 }
+
+
+
+
+
