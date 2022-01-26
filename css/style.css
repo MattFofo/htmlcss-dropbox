@@ -22,6 +22,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    padding: 1em 0;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -50,6 +54,14 @@ p {
     text-align: center;
 }
 
+.margin-auto{
+    margin: 0 auto;
+}
+
+.bordered-grey {
+    border: 1px solid lightgray;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -67,6 +79,10 @@ p {
 
 .pb40 {
     padding-bottom: 40px;
+}
+
+.pb100{
+    padding-bottom: 100px;
 }
 
 .list {
@@ -212,8 +228,8 @@ p {
 }
 
 .container-content-card {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .plan-card .btn-colored{
@@ -249,4 +265,17 @@ p {
     width: calc(100% - 15px);
     float: right;
 
+}
+
+/* sezione enterprise */
+
+.enterprise-text{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.section-enterprise .btn-colored{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
 }
