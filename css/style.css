@@ -5,7 +5,9 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
     
 }
 
@@ -31,9 +33,13 @@ p {
     margin: 0 auto;
 }
 
-.container1000 {
-    width: 1000px;
+.container1100 {
+    width: 1100px;
     margin: 0 auto;
+}
+
+.display-inlineblock{
+    display: inline-block;
 }
 
 .relative {
@@ -48,6 +54,11 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+
+.pb20 {
+    padding-bottom: 20px;
 }
 
 
@@ -86,7 +97,8 @@ p {
 
 
 .link-logo {
-    line-height: 4;
+    height: 82px;
+    line-height: 3.8rem;
 }
 
 .img-logo{
@@ -145,7 +157,7 @@ p {
 
 .col1000 img{
     width: 850px;
-    height: 500px;
+    height: 510px;
     position: absolute;
     right: 0;
     top: 0;
@@ -154,7 +166,7 @@ p {
 /* sezione "trova il piano che fa per te" */
 
 .section-plans {
-    margin-top: 8rem;
+    padding-top: 8rem;
 }
 
 .circle {
@@ -183,16 +195,26 @@ p {
     
 }
 
+.container-card-text {
+    line-height: 2rem;
+}
+
 
 .container-content-card {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .plan-card .btn-colored{
     display: block;
+    
 }
 
 .card-middle {
     margin-left: 3.3rem;
+}
+
+
+.col80{
+    width: 80%;
 }
