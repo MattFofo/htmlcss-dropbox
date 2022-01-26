@@ -308,3 +308,10 @@ p {
 .dropbox-features .row-top {
     padding-bottom: 80px;
 }
+
+/* footer main */
+
+.footer-main a{
+    display: inline-block;
+    margin: 2em 0;
+}
