@@ -289,3 +289,22 @@ p {
     object-fit: cover;
     width: 600px;
 }
+
+/* sezione dropbpx features */
+
+.card-feature {
+    width: calc(34% - 4em);
+    float: left;
+}
+
+.card-feature img {
+    width: 100%;
+}
+
+.card-feature-middle {
+    margin: 0 4em;
+}
+
+.dropbox-features .row-top {
+    padding-bottom: 80px;
+}
