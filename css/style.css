@@ -333,8 +333,8 @@ p {
 
 
 .img-brand {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 70px;
     
     
 }
@@ -374,4 +374,27 @@ p {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+
+/* sezione colorata inizia prova gratuita */
+
+
+.section-free-trial{
+    background-color: lightblue;
+}
+
+.section-free-trial h2{
+    padding: 8rem 0;
+    display: inline-block;
+    color: purple;
+    
+}
+
+.section-free-trial a {
+    margin: 8rem 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: white;
+    color: black;
 }
