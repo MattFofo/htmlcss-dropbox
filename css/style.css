@@ -214,7 +214,10 @@ p {
     margin-left: 3.3rem;
 }
 
+.top-content-card {
+    position: relative;
+}
 
-.col80{
-    width: 80%;
+.col-card{
+    width: calc(100% - 25px)
 }
