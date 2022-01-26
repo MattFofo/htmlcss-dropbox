@@ -398,3 +398,25 @@ p {
     background-color: white;
     color: black;
 }
+
+
+/* sezione domande frequenti */
+
+
+.list-faq {
+    padding-top: 8rem;
+}
+
+.list-faq h2 {
+    padding-bottom: 3rem;
+}
+
+.list-faq li {
+    line-height: 5em;
+    border-bottom: 1px solid gray ;
+}
+
+.faq::after {
+    content: "\02C5";
+    float: right;
+}
