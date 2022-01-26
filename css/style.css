@@ -420,3 +420,29 @@ p {
     content: "\02C5";
     float: right;
 }
+
+
+/* Footer */
+
+.footer-bottom-page {
+    background-color: black;
+    color: white;
+}
+
+
+.footer-bottom-page .column {
+    float: left; 
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+    width: 300px;
+
+}
+
+.footer-bottom-page .link{
+    color: white;
+}
+
+.column.border-bottom{
+    border-bottom: 1px solid white;
+}
