@@ -33,6 +33,8 @@ p {
     line-height: 1.5em;
 }
 
+
+
 /* UTILITY */
 
 .container1400 {
@@ -190,6 +192,8 @@ p {
     text-decoration: underline;
 }
 
+
+
 /* HEADER */
 
 .top-page {
@@ -200,9 +204,7 @@ p {
     width: 100%;
     height: 88px;
     min-width: 1200px;
-    z-index: 1000;
-
-    
+    z-index: 1000;  
 }
 
 .nav-header-main{
@@ -228,7 +230,6 @@ p {
     
 }
 
-
 .link-nav {
     padding: 2rem 0rem;
     margin: 0 1.5rem;
@@ -242,11 +243,11 @@ header.top-page .btn-colored {
 }
 
 
-
-
 .link-nav-hover:hover{
     border-bottom: 2px solid black;
 }
+
+
 
 
 /* section-header (prima sezione colorata sotto l'header)*/
@@ -287,6 +288,9 @@ header.top-page .btn-colored {
     right: 0;
     top: 0;
 }
+
+
+
 
 /* sezione "trova il piano che fa per te" */
 
@@ -389,15 +393,15 @@ header.top-page .btn-colored {
     border: solid blue;
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
-
-    
 }
 
 .section-plan-highlights{
     width: calc(100% - 15px);
     float: right;
-
 }
+
+
+
 
 /* sezione enterprise */
 
@@ -423,6 +427,9 @@ header.top-page .btn-colored {
     font-size: 1.5em;
 }
 
+
+
+
 /* sezione trova partner */
 
 .section-find-partner .col{
@@ -443,6 +450,9 @@ header.top-page .btn-colored {
 .section-find-partner .btn-white {
     margin-top: 2rem;
 }
+
+
+
 
 /* sezione dropbpx features */
 
@@ -469,6 +479,7 @@ header.top-page .btn-colored {
     display: inline-block;
     margin: 2em 0;
 }
+
 
 
 
@@ -567,6 +578,8 @@ header.top-page .btn-colored {
 }
 
 
+
+
 /* sezione colorata inizia prova gratuita */
 
 
@@ -590,6 +603,8 @@ header.top-page .btn-colored {
     top: 0;
     right: 0;
 }
+
+
 
 
 /* sezione domande frequenti */
@@ -616,6 +631,8 @@ header.top-page .btn-colored {
     top: 50%;
     transform: translateY(-50%);
 }
+
+
 
 
 /* Footer */
