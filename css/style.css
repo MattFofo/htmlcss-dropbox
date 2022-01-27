@@ -489,6 +489,10 @@ header.top-page .btn-colored {
     background-color: lightgreen;
 }
 
+.special-brand{
+    border: 8px solid rgb(208, 248, 208);
+}
+
 .arizona{
     background-color: rgb(129, 26, 26);
 }
