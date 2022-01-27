@@ -96,6 +96,10 @@ p {
     padding-bottom: 100px;
 }
 
+.pb140{
+    padding-bottom: 140px;
+}
+
 .mt80 {
     margin-top: 80px;
 
@@ -171,6 +175,10 @@ p {
     color: gray;
 }
 
+.underlined-text{
+    text-decoration: underline;
+}
+
 /* HEADER */
 
 .top-page {
@@ -181,7 +189,6 @@ p {
     width: 100%;
     z-index: 1000;
     min-width: 1200px;
-    line-height: 2.5rem;
 }
 
 
@@ -390,13 +397,18 @@ header.top-page .btn-colored {
 /* sezione trova partner */
 
 .section-find-partner .col{
-    width: 400px;
+    width: 500px;
     height: 400px;
 }
 
 .img-partner{
     object-fit: cover;
-    width: 600px;
+    width: 550px;
+}
+
+.section-find-partner p{
+    line-height: 1.8em;
+
 }
 
 .section-find-partner .btn-white {
@@ -432,6 +444,11 @@ header.top-page .btn-colored {
 
 
 /* sezione con loghi aziende */
+
+
+.container-brand-global {
+    min-width: 100%;
+}
 
 
 .container-col-brands {
