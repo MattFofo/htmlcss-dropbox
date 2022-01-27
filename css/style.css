@@ -17,6 +17,7 @@ h1 {
     word-spacing: 0.2em;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    margin-top: 5rem;
 }
 
 h2 {
@@ -71,8 +72,16 @@ p {
 }
 
 
+.margin-fix {
+    margin-top: -5px;
+}
+
 .pt20 {
     padding-top: 20px;
+}
+
+.pt40 {
+    padding-top: 40px;
 }
 
 .pb20 {
@@ -85,6 +94,10 @@ p {
 
 .pb100{
     padding-bottom: 100px;
+}
+
+.hr50{
+    width: 50px;
 }
 
 .list {
@@ -139,11 +152,17 @@ p {
 
 /* HEADER */
 
-
-
-.link-logo {
-    line-height: 3.8rem;
+.top-page {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    min-width: 1200px;
+    line-height: 2.5rem;
 }
+
 
 .img-logo{
     vertical-align: middle;
@@ -151,20 +170,24 @@ p {
 
 .nav-sx li {
     float: left;
-    padding: 1.5rem 0.8em;
+    
 }
 
 .nav-dx li {
     float: right;
-    padding: 1.5rem .8em;
+    
 }
 
 
 .link-nav {
-    padding: .5rem 1rem;
+    padding: 2rem 1rem;
     text-decoration: none;
     display: inline-block;
     color: black;
+}
+
+header.top-page .btn-colored {
+    margin: 1.5rem;
 }
 
 
@@ -400,7 +423,7 @@ p {
 
 
 .img-brand-text {
-    width: 100px;
+    width: 150px;
     height: 80px;
 }
 
@@ -469,7 +492,6 @@ p {
 
 .section-free-trial h2{
     padding: 8rem 0;
-    display: inline-block;
     color: purple;
     
 }
@@ -480,6 +502,9 @@ p {
     padding-right: 3rem;
     background-color: white;
     color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 
