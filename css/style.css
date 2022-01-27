@@ -543,12 +543,15 @@ header.top-page .btn-colored {
 
 .list-faq li {
     line-height: 5em;
-    border-bottom: 1px solid gray ;
+    border-bottom: 1px solid gray;
+    font-weight: 600;
 }
 
-.faq::after {
-    content: "\02C5";
-    float: right;
+.fa-chevron-down {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
