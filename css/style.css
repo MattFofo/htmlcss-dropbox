@@ -142,7 +142,6 @@ p {
 
 
 .link-logo {
-    height: 82px;
     line-height: 3.8rem;
 }
 
@@ -413,20 +412,36 @@ p {
 }
 
 .designit{
-    background-color: red;
+    background-color: lightgreen;
 }
 
 .arizona{
-    background-color: yellow;
+    background-color: rgb(129, 26, 26);
 }
 
 .florida{
-    background-color: green;
+    background-color: rgb(123, 162, 235);
 
 }
 
 .topps{
-    background-color: hotpink;
+    background-color: rgb(243, 62, 62);
+}
+
+.world-bycicle{
+    background-color: red;
+}
+
+.hearts {
+    background-color: cadetblue;
+}
+
+.lonely-planet{
+    background-color: blue;
+}
+
+.clear-channel{
+    background-color: rgba(219, 219, 14, 0.897);
 }
 
 .container-text-brand{
@@ -434,7 +449,8 @@ p {
     height: 400px;
     padding: 3em;
     background-color: lightgray;
-    
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .col-brands-dx{
