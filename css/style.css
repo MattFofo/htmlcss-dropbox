@@ -146,6 +146,10 @@ p {
     padding: .5rem 1rem;
 }
 
+.btn-colored:hover{
+    text-decoration: underline;
+}
+
 .btn-white {
     background-color: white;
     color: black;
@@ -189,6 +193,12 @@ p {
     width: 100%;
     z-index: 1000;
     min-width: 1200px;
+    line-height: calc(1.5 + 2px);
+}
+
+
+.link-logo{
+    height: 80px;
 }
 
 
@@ -208,7 +218,8 @@ p {
 
 
 .link-nav {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
+    margin: 0 1.5rem;
     text-decoration: none;
     display: inline-block;
     color: black;
@@ -218,6 +229,12 @@ header.top-page .btn-colored {
     margin: 1.5rem;
 }
 
+
+
+
+.link-nav-hover:hover{
+    border-bottom: 2px solid black;
+}
 
 
 /* section-header (prima sezione colorata sotto l'header)*/
