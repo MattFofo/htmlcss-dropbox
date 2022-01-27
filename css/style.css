@@ -150,6 +150,11 @@ p {
     text-decoration: underline;
 }
 
+
+.link-white-hover:hover{
+    text-decoration: underline;
+}
+
 .btn-white {
     background-color: white;
     color: black;
@@ -171,6 +176,7 @@ p {
     color: rgb(41, 122, 254);
     text-decoration: underline;
 }
+
 
 .bordered {
     border: 1px solid lightgrey;
@@ -651,6 +657,5 @@ header.top-page .btn-colored {
     text-decoration: underline;
 
 }
-
 
 
