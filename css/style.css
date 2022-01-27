@@ -565,7 +565,7 @@ header.top-page .btn-colored {
     height: 400px;
     padding: 3em;
     background-color: lightgray;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
@@ -645,7 +645,6 @@ header.top-page .btn-colored {
     float: left; 
     padding-top: 4rem;
     padding-left: 3rem;
-    
     width: 280px;
     line-height: 2;
 
