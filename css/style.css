@@ -190,6 +190,10 @@ p {
     text-decoration: underline;
 }
 
+.fw400{
+    font-weight: 400;
+}
+
 
 
 /* HEADER */
