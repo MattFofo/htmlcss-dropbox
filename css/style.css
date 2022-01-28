@@ -32,7 +32,6 @@ p {
 }
 
 
-
 /* UTILITY */
 
 .container1400 {
@@ -146,6 +145,7 @@ p {
     padding: .5rem 1rem;
 }
 
+
 .btn-colored:hover, .btn-white:hover{
     text-decoration: underline;
 }
@@ -164,11 +164,19 @@ p {
     border: 1px solid black;
 }
 
+.btn-white:visited{
+    color: black;
+}
+
 
 .link {
     text-decoration: none;
     display: inline-block;
     color: black;
+}
+
+.link:visited{
+    color: inherit;
 }
 
 .link-underlined {
@@ -177,6 +185,9 @@ p {
     text-decoration: underline;
 }
 
+.link-underlined:visited{
+    color: rgb(41, 122, 254);
+}
 
 .bordered {
     border: 1px solid lightgrey;
@@ -422,6 +433,8 @@ header.top-page .btn-colored {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
+    padding-right: 4em;
+    padding-left: 4em;
 }
 
 .header-section-enterprise{
