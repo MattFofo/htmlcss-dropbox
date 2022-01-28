@@ -703,3 +703,12 @@ header.top-page .btn-colored {
 .dropdown:hover .dropdown-content {
     display: block;
   }
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .link-nav-hover {
+    border-bottom: 2px solid black;
+
+}
