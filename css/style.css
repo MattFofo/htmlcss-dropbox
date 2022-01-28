@@ -194,6 +194,9 @@ p {
     font-weight: 400;
 }
 
+.vh100{
+    min-width: 100vh;
+}
 
 
 /* HEADER */
@@ -489,7 +492,7 @@ header.top-page .btn-colored {
 
 
 .container-brand-global {
-    min-width: 100%;
+    min-width: 1150px;
 }
 
 
