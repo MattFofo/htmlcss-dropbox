@@ -645,6 +645,7 @@ header.top-page .btn-colored {
 .footer-bottom-page {
     background-color: black;
     color: white;
+    min-width: 900px;
 }
 
 
