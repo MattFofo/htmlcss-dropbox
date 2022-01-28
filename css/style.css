@@ -491,6 +491,8 @@ header.top-page .btn-colored {
     padding-bottom: 80px;
 }
 
+
+
 /* footer main */
 
 .footer-main a{
@@ -581,6 +583,7 @@ header.top-page .btn-colored {
 }
 
 .container-text-brand{
+    display: inline-block;
     width: calc(100% - 800px);
     height: 400px;
     padding: 3em;
